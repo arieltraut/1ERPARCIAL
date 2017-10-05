@@ -1,0 +1,124 @@
+# depslib dependency file v1.0
+1506638068 source:e:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.c
+	<stdio.h>
+	<stdlib.h>
+	"entidad2.h"
+	<string.h>
+
+1506636908 e:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.h
+
+1506640300 source:e:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad1.c
+	<stdio.h>
+	<stdlib.h>
+	"entidad1.h"
+	<string.h>
+
+1506636908 e:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad1.h
+
+1506639076 source:e:\utn\clasesprogramacion1\clase11\cascara\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"entidad1.h"
+	"entidad2.h"
+
+1506638068 source:d:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.c
+	<stdio.h>
+	<stdlib.h>
+	"entidad2.h"
+	<string.h>
+
+1506636908 d:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.h
+
+1507213316 source:l:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad1.h"
+	"entidad2.h"
+	"validar.h"
+
+1507209406 l:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad1.h
+
+1507220751 source:l:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad2.h"
+	"validar.h"
+
+1507220565 l:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.h
+	"entidad1.h"
+
+1507220626 source:l:\utn\clasesprogramacion1\clase11\cascara\cascara\informes.c
+	<stdio.h>
+	<stdlib.h>
+	"entidad1.h"
+	"entidad2.h"
+	"informes.h"
+
+1507218460 l:\utn\clasesprogramacion1\clase11\cascara\cascara\informes.h
+
+1507216179 source:l:\utn\clasesprogramacion1\clase11\cascara\cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507216179 l:\utn\clasesprogramacion1\clase11\cascara\cascara\validar.h
+
+1507217050 source:l:\utn\clasesprogramacion1\clase11\cascara\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad1.h"
+	"entidad2.h"
+	"validar.h"
+	"informes.h"
+
+1507213316 source:f:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad1.h"
+	"entidad2.h"
+	"validar.h"
+
+1507209406 f:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad1.h
+
+1507233118 f:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.h
+	"entidad1.h"
+
+1507216179 f:\utn\clasesprogramacion1\clase11\cascara\cascara\validar.h
+
+1507233118 source:f:\utn\clasesprogramacion1\clase11\cascara\cascara\entidad2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad2.h"
+	"validar.h"
+
+1507234720 source:f:\utn\clasesprogramacion1\clase11\cascara\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad1.h"
+	"entidad2.h"
+	"validar.h"
+	"informes.h"
+
+1507234720 f:\utn\clasesprogramacion1\clase11\cascara\cascara\informes.h
+
+1507216179 source:f:\utn\clasesprogramacion1\clase11\cascara\cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507235254 source:f:\utn\clasesprogramacion1\clase11\cascara\cascara\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad1.h"
+	"entidad2.h"
+	"informes.h"
+
