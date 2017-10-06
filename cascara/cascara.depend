@@ -122,3 +122,70 @@
 	"entidad2.h"
 	"informes.h"
 
+1507213316 source:d:\ariel\cascara\entidad1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad1.h"
+	"entidad2.h"
+	"validar.h"
+
+1507209406 d:\ariel\cascara\entidad1.h
+
+1507233118 d:\ariel\cascara\entidad2.h
+	"entidad1.h"
+
+1507245613 d:\ariel\cascara\validar.h
+
+1507233118 source:d:\ariel\cascara\entidad2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entidad2.h"
+	"validar.h"
+
+1507245929 source:d:\ariel\cascara\informes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"informes.h"
+
+1507245897 d:\ariel\cascara\informes.h
+
+1507248201 source:d:\ariel\cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+	"informes.h"
+
+1507247565 source:d:\ariel\cascara\validar.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validar.h"
+
+1507250348 source:d:\ariel\cascara\contrataciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"contrataciones.h"
+	"validar.h"
+
+1507249863 d:\ariel\cascara\contrataciones.h
+	"pantallas.h"
+
+1507247084 d:\ariel\cascara\pantallas.h
+
+1507248201 source:d:\ariel\cascara\pantallas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pantallas.h"
+	"contrataciones.h"
+	"validar.h"
+

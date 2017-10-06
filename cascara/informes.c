@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "entidad1.h"
-#include "entidad2.h"
+#include "pantallas.h"
+#include "contrataciones.h"
 #include "informes.h"
-
+/*
 void imprimirTodo(Entidad1 arrayEntidad1[], int lenEntidad1, Entidad2 arrayEntidad2[], int lenEntidad2)
 {
     int indexE2;
@@ -227,3 +227,4 @@ void prueba(Entidad1 arrayEntidad1[], Entidad2 arrayEntidad2[], int lenEntidad1,
         }
 
 }
+*/

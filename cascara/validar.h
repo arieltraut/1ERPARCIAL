@@ -10,10 +10,12 @@ int val_getNombre(char* destino, char* mensaje,char* mensajeError,int intentos,i
 int val_esSoloLetras(char* buffer);
 
 int val_getEdad(char* destino, char* mensaje,char* mensajeError,int intentos,int limite);
+int val_getPrecio(char* destino, char* mensaje,char* mensajeError,int intentos,int limite);
 int val_soloNumeros(char* buffer);
 
 int val_getDni(char* destino, char* mensaje,char* mensajeError,int intentos,int limite);
 
+int val_getAlfanumerico(char* destino, char* mensaje,char* mensajeError,int intentos,int limite);
 int val_esAlfaNumerico(char str[]);
 int val_esNumericoFlotante(char str[]);
 

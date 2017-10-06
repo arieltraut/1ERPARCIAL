@@ -128,7 +128,33 @@ int val_getNombre(char* destino, char* mensaje,char* mensajeError,int intentos,i
     return retorno;
 }
 
+int val_getAlfanumerico(char* destino, char* mensaje,char* mensajeError,int intentos,int limite)
+{
+    int retorno = -1;
+    char buffer[MAX_INPUT_BUFFER];
 
+    if(destino != NULL && limite > 0 && limite < MAX_INPUT_BUFFER)
+    {
+        printf(mensaje);
+        for( ;intentos>0;intentos--)
+        {
+            myFgets(buffer, limite ,stdin);
+
+            if(val_esAlfaNumerico(buffer) == 1)
+            {
+                printf(mensajeError);
+                continue;
+            }
+            else
+            {
+                strncpy(destino,buffer,limite);
+                retorno = 0;
+                break;
+            }
+        }
+    }
+    return retorno;
+}
 
 
 int val_getEdad(char* destino, char* mensaje,char* mensajeError,int intentos,int limite)
@@ -144,6 +170,34 @@ int val_getEdad(char* destino, char* mensaje,char* mensajeError,int intentos,int
             myFgets(buffer, limite ,stdin);
 
             if((val_soloNumeros(buffer) == -1) || (atoi(buffer) > 150))
+            {
+                printf(mensajeError);
+                continue;
+            }
+            else
+            {
+                strncpy(destino,buffer,limite);
+                retorno = 0;
+                break;
+            }
+        }
+    }
+    return retorno;
+}
+
+int val_getPrecio(char* destino, char* mensaje,char* mensajeError,int intentos,int limite)
+{
+    int retorno = -1;
+    char buffer[MAX_INPUT_BUFFER];
+
+    if(destino != NULL && limite > 0 && limite < MAX_INPUT_BUFFER)
+    {
+        printf(mensaje);
+        for( ;intentos>0;intentos--)
+        {
+            myFgets(buffer, limite ,stdin);
+
+            if((val_esNumericoFlotante(buffer) == -1) || (atoi(buffer) > 150))
             {
                 printf(mensajeError);
                 continue;
@@ -278,7 +332,7 @@ int val_esAlfaNumerico(char str[])
    int i=0;
    while(str[i] != '\0')
    {
-       if((str[i] != ' ') && (str[i] < 'a' || str[i] > 'z') && (str[i] < 'A' || str[i] > 'Z') && (str[i] < '0' || str[i] > '9'))
+       if((str[i] < 'a' || str[i] > 'z') && (str[i] < 'A' || str[i] > 'Z') && (str[i] < '0' || str[i] > '9')) //(str[i] != ' ')
            return 0;
        i++;
    }
